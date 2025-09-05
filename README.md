@@ -1,4 +1,4 @@
-# Call Analysis Pipeline
+# Customer Support Call Analysis Pipeline
 
 Professional, modular pipeline for transcription, diarization, sentiment/intent analysis, tonality (audio emotion), summarization and RAG-based follow-up recommendations for call center audio.
 
@@ -18,9 +18,7 @@ This README explains the project, how to run it locally in **hardcoded** mode (n
 - [Run evaluation](#run-evaluation)
 - [Output files (what to expect)](#output-files-what-to-expect)
 - [Troubleshooting & tips](#troubleshooting--tips)
-- [Notes on reproducibility & performance](#notes-on-reproducibility--performance)
-- [Repository policies / large files (git / LFS)](#repository-policies--large-files-git--lfs)
-- [License & attribution](#license--attribution)
+- [LICENSE](#license--attribution)
 
 ---
 
