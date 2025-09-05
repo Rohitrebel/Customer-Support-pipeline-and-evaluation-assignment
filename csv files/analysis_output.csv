@@ -1,0 +1,62 @@
+segment_id,start,end,text,speaker,sentiment,sentiment_conf,tonality,tonality_conf,intent,intent_conf
+s1,4.486,6.57, Hi everyone.,SPEAKER_00,positive,0.868012547492981,fear,0.8560904860496521,Greeting / Opening,0.2780922055244446
+s2,6.61,14.424,My name is Durgesh Shukla and I am the trainer of Office Administration at ICICI Foundation.,SPEAKER_00,neutral,0.8931784629821777,disgust,0.8379063606262207,Providing Information,0.11193087697029114
+s3,14.445,16.649,"In this video, we will see how to attend official calls.",SPEAKER_00,neutral,0.9516748189926147,fear,0.5239543914794922,Providing Information,0.16369934380054474
+s4,16.809,23.862,"In the next video, we will see how to solve customer queries.",SPEAKER_00,neutral,0.6181077361106873,sad,0.7805588245391846,Asking Information / Query,0.4227571189403534
+s5,30.322,32.645," Hello, my name is Durgesh from ABC Bank.",SPEAKER_00,neutral,0.7789372801780701,neutral,0.9713361859321594,Greeting / Opening,0.1783253401517868
+s6,33.026,33.807,How can I help you?,SPEAKER_00,neutral,0.8413415551185608,neutral,0.9666046500205994,Asking Information / Query,0.3697291314601898
+s7,33.827,37.031,"Durgesh, it has been more than 7 days.",SPEAKER_01,neutral,0.8438678979873657,happy,0.9604649543762207,Closing / Goodbye,0.3544198274612427
+s8,37.051,38.794,Even 10 days have passed.,SPEAKER_01,neutral,0.7962999939918518,neutral,0.915387749671936,Clarification / Doubt,0.10978290438652039
+s9,38.814,39.955,I applied for a cheque book.,SPEAKER_01,neutral,0.8554114699363708,neutral,0.5518761277198792,Billing / Payment Issue,0.27152734994888306
+s10,39.976,41.297,My cheque book has not arrived yet.,SPEAKER_01,negative,0.7034752368927002,neutral,0.7418431043624878,Billing / Payment Issue,0.3235301673412323
+s11,41.317,43.601,You all are making false promises.,SPEAKER_01,negative,0.8571839928627014,neutral,0.728564441204071,Clarification / Doubt,0.13466298580169678
+s12,43.621,49.028,"Ma'am, I am very sorry for any inconvenience that you are facing.",SPEAKER_00,negative,0.8122496604919434,neutral,0.6186017394065857,Greeting / Opening,0.3549101948738098
+s13,50.23,51.512,"Ma'am, can I know your name?",SPEAKER_00,neutral,0.9308221936225891,neutral,0.930733323097229,Asking Information / Query,0.37721124291419983
+s14,51.532,53.194,Then tell me your name.,SPEAKER_01,neutral,0.841430127620697,angry,0.9210832118988037,Providing Information,0.5743902921676636
+s15,53.474,54.716,My name is Harsha Sharma.,SPEAKER_01,neutral,0.8858594298362732,happy,0.709397554397583,Greeting / Opening,0.10200672596693039
+s16,55.938,58.241,Thank you ma'am for confirming my name.,SPEAKER_00,positive,0.8791276812553406,sad,0.6201833486557007,Providing Information,0.4992397129535675
+s17,58.261,59.603,Can I know your date of birth?,SPEAKER_00,neutral,0.9274960160255432,neutral,0.5236039161682129,Asking Information / Query,0.526717483997345
+s18,59.971,69.228," You always ask for details like name, date of birth, but you are not doing my main work.",SPEAKER_01,negative,0.7361423373222351,happy,0.8455919623374939,Other / Irrelevant,0.3319093585014343
+s19,69.248,71.091,"Ma'am, I can understand what you are saying.",SPEAKER_00,neutral,0.513516366481781,neutral,0.8143424987792969,Providing Information,0.2621605694293976
+s20,71.111,75.118,"Ma'am, the details that are asked are for the security of your account.",SPEAKER_00,neutral,0.8553375005722046,happy,0.9655729532241821,Providing Information,0.5392913818359375
+s21,75.138,78.885,"Okay, my date of birth is 01081983.",SPEAKER_01,neutral,0.8978164792060852,happy,0.9810975790023804,Providing Information,0.22609208524227142
+s22,80.188,83.734,"Thank you so much, ma'am, for confirming your date of birth.",SPEAKER_00,positive,0.9430251717567444,neutral,0.9015523195266724,Providing Information,0.7302895188331604
+s23,84.76,89.706," Ma'am, as I am able to check in this system, your cheque book has already been dispatched.",SPEAKER_00,neutral,0.8421083092689514,neutral,0.5909993648529053,Providing Information,0.6110805869102478
+s24,89.726,92.79,But I have not received it.,SPEAKER_01,neutral,0.532980740070343,happy,0.9160921573638916,Closing / Goodbye,0.17128342390060425
+s25,92.81,93.571,"Absolutely, Ma'am.",SPEAKER_00,positive,0.7413578629493713,neutral,0.9677388668060303,Requesting Service / Action,0.11880934238433838
+s26,93.591,96.935,I can understand whatever inconvenience you are facing.,SPEAKER_00,neutral,0.501643180847168,happy,0.8566325902938843,Clarification / Doubt,0.25360825657844543
+s27,96.955,101.38,"And as I am able to see here, Ma'am, that your cheque book has reached your city.",SPEAKER_00,neutral,0.846433162689209,happy,0.8535547256469727,Providing Information,0.3970651626586914
+s28,101.401,106.807,"So it is possible, Ma'am, that by tomorrow, this cheque book will be delivered to your home.",SPEAKER_00,neutral,0.8156187534332275,happy,0.8012675642967224,Order / Purchase,0.338980495929718
+s29,107.788,109.671,Now you are saying that it has reached the city.,SPEAKER_01,neutral,0.9088455438613892,happy,0.7947362661361694,Providing Information,0.3055232763290405
+s30,109.731,112.354,"So I will not go to the city, where it has reached, what it has reached.",SPEAKER_01,negative,0.4774879813194275,neutral,0.9373868107795715,Providing Information,0.16160811483860016
+s31,112.621,114.303, How are you able to see?,SPEAKER_01,neutral,0.9169145226478577,neutral,0.5283655524253845,Asking Information / Query,0.5148634314537048
+s32,114.323,116.946,I don't even know this is happening.,SPEAKER_01,negative,0.7745687365531921,happy,0.5513858795166016,Clarification / Doubt,0.2126435786485672
+s33,117.267,117.947,Absolutely.,SPEAKER_00,neutral,0.48559021949768066,happy,0.9441221356391907,Requesting Service / Action,0.10929583013057709
+s34,117.967,121.572,"Mr. Harsha, as soon as your cheque book was dispatched, you must have received a SMS.",SPEAKER_00,neutral,0.896637499332428,happy,0.6413697004318237,Billing / Payment Issue,0.4299020767211914
+s35,121.592,123.814,In which there will be details of delivery.,SPEAKER_00,neutral,0.870992124080658,happy,0.9425598382949829,Providing Information,0.7107605934143066
+s36,123.834,126.317,And there will be a transaction number.,SPEAKER_00,neutral,0.8747267127037048,happy,0.48117706179618835,Providing Information,0.1228693425655365
+s37,126.337,131.904,"With that transaction number, you can track where your order has reached.",SPEAKER_00,neutral,0.9060693979263306,angry,0.5499640703201294,Providing Information,0.4163917899131775
+s38,132.725,135.989,And I am able to see here that the order has reached your city.,SPEAKER_00,neutral,0.8584224581718445,happy,0.6445956826210022,Providing Information,0.33881160616874695
+s39,136.009,139.573,"So it is possible that today or till tomorrow,",SPEAKER_00,neutral,0.9397737979888916,happy,0.8494609594345093,Clarification / Doubt,0.1438680738210678
+s40,139.807,145.913," It will definitely be delivered at your home, whatever mailing address you have given here.",SPEAKER_00,neutral,0.5421937704086304,happy,0.9859387874603271,Requesting Service / Action,0.13304151594638824
+s41,145.933,148.876,"Okay, tell me honestly, for how long will I get this?",SPEAKER_01,negative,0.4850291311740875,neutral,0.7641980648040771,Providing Information,0.264230340719223
+s42,148.896,154.942,"Because you always tell me that you will get it in 7 days, 7 is 8, 9 is 9, today is 12 days and you are not getting it.",SPEAKER_01,negative,0.6081142425537109,neutral,0.9241085052490234,Providing Information,0.24857674539089203
+s43,156.443,158.846,"Absolutely, I can understand, ma'am, what is your problem?",SPEAKER_00,neutral,0.6241346597671509,neutral,0.6963064074516296,Clarification / Doubt,0.38810983300209045
+s44,159.446,164.091,"Although, ma'am, you should get this order or your checkbook within 7 working days.",SPEAKER_00,neutral,0.8234421014785767,neutral,0.8728827238082886,Order / Purchase,0.3909209966659546
+s45,164.111,168.295,"Still, I will forward your feedback in the future.",SPEAKER_00,positive,0.4993620812892914,happy,0.6580530405044556,Providing Information,0.2747651934623718
+s46,168.494,174.922, so that there is no such problem in the future and we can bring some changes in our operations.,SPEAKER_00,neutral,0.6765722036361694,happy,0.9750716686248779,Clarification / Doubt,0.26252010464668274
+s47,174.962,180.269,"Otherwise, I will file a complaint for this.",SPEAKER_01,negative,0.6784330010414124,angry,0.7869656682014465,Cancellation Request,0.45992574095726013
+s48,180.289,182.151,"Ma'am, you don't have to worry.",SPEAKER_00,neutral,0.6656535863876343,neutral,0.9013082385063171,Clarification / Doubt,0.18240346014499664
+s49,182.171,184.755,You don't have to worry.,SPEAKER_00,neutral,0.5853983163833618,happy,0.9555256962776184,Clarification / Doubt,0.17849230766296387
+s50,184.775,189.0,Your chequebook will be delivered by tomorrow.,SPEAKER_00,neutral,0.5932447910308838,happy,0.6730955839157104,Order / Purchase,0.2809678614139557
+s51,189.02,191.103,Okay ma'am.,SPEAKER_00,neutral,0.7377346158027649,happy,0.48789364099502563,Greeting / Opening,0.27652114629745483
+s52,191.163,191.283,Okay.,SPEAKER_00,neutral,0.5692523121833801,happy,0.9926812052726746,Feedback / Suggestion,0.10149094462394714
+s53,191.323,194.246,"Harsha, can I help you with anything other than this?",SPEAKER_00,neutral,0.9137089848518372,happy,0.9454466700553894,Requesting Service / Action,0.40868663787841797
+s54,194.267,197.05,"No, as long as I get this, this will be a big help for you.",SPEAKER_01,positive,0.9080092310905457,neutral,0.8317681550979614,Providing Information,0.4978933036327362
+s55,197.806,203.818," Ma'am, don't worry, your cheque book will be delivered by tomorrow.",SPEAKER_00,positive,0.5982784628868103,happy,0.8033085465431213,Order / Purchase,0.2086835354566574
+s56,204.82,205.04,Okay.,SPEAKER_00,neutral,0.5692523121833801,happy,0.9764145612716675,Feedback / Suggestion,0.10149094462394714
+s57,205.08,206.463,Thank you for calling ABC Bank.,SPEAKER_00,positive,0.8144180774688721,neutral,0.6250302791595459,Greeting / Opening,0.1775592863559723
+s58,206.643,211.012,Have a nice day.,SPEAKER_00,positive,0.9462037086486816,fear,0.9074695706367493,Greeting / Opening,0.13268910348415375
+s59,211.032,217.504,"In this video, we saw how you can easily solve customers' complaints.",SPEAKER_00,positive,0.8332046866416931,disgust,0.7560043931007385,Clarification / Doubt,0.376009464263916
+s60,218.767,220.59,Thank you for watching this video.,SPEAKER_00,positive,0.8868921399116516,sad,0.8783786296844482,Providing Information,0.5687088370323181
+s61,237.698,239.828, you,,neutral,0.5276734828948975,sad,0.6585984230041504,Greeting / Opening,0.1706562489271164

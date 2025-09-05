@@ -1,0 +1,6 @@
+English/
+Hindi/
+Hinglish/
+.venv
+.env
+wav2vec2_checkpoints/

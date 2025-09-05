@@ -1,0 +1,67 @@
+# Customer Support FAQ & Policies
+
+## 1. General Information
+
+* **Support Hours:** Our support team is available Monday–Friday, 9:00 AM – 6:00 PM (local time). Limited support may be available on weekends and public holidays.
+* **Contact Channels:** Customers can reach us via phone, email, live chat, or through the self-service portal.
+* **Response Time:** Standard response time is 24 hours for email tickets. Live chat and phone calls are handled in real time.
+
+## 2. Account & Access
+
+* **Password Reset:** Customers can reset their password anytime using the “Forgot Password” option. If issues persist, agents can send a reset link.
+* **Account Lockouts:** Accounts may be temporarily locked after multiple failed login attempts. Unlocking requires identity verification.
+
+## 3. Billing & Payments
+
+* **Payment Methods:** Credit card, debit card, PayPal, and bank transfers are supported.
+* **Billing Issues:** For duplicate charges, failed transactions, or refund requests, customers should provide transaction details. Refunds are processed within 7–10 business days.
+* **Invoices:** Monthly and yearly invoices are available in the account billing section or can be requested from support.
+
+## 4. Orders & Services
+
+* **Order Tracking:** Customers can track orders via the online portal or by contacting support with the order ID.
+* **Cancellations:** Orders or subscriptions may be canceled within a defined period (e.g., 14 days) depending on the product/service.
+* **Service Availability:** Some services may vary by region. Agents should verify availability before confirming with customers.
+
+## 5. Technical Support
+
+* **Troubleshooting Steps:** Agents should first collect error details (error codes, screenshots, logs). Customers may be guided through standard troubleshooting steps.
+* **Escalations:** Complex issues beyond Tier 1 support are escalated to technical specialists. Customers will be updated regularly until resolution.
+* **Downtime & Maintenance:** Scheduled maintenance windows are communicated in advance. Unexpected outages are updated on the service status page.
+
+## 6. Complaints & Feedback
+
+* **Complaint Handling:** Customers should be acknowledged promptly. Agents must log complaints and provide an estimated resolution time.
+* **Feedback Collection:** Agents are encouraged to ask for feedback at the end of conversations. Feedback helps improve services.
+
+## 7. Privacy & Security
+
+* **Data Protection:** Customer data is handled in compliance with data protection regulations (e.g., GDPR, CCPA).
+* **Verification:** For sensitive requests (billing, account changes), customers must confirm identity with security questions or registered details.
+
+## 8. Resolution & Follow-Up
+
+* **First Contact Resolution:** Whenever possible, issues should be resolved during the initial interaction.
+* **Next Steps:** If resolution is not immediate, agents should provide clear next steps and expected timelines.
+* **Follow-Up:** Customers may receive follow-up emails or calls to confirm satisfaction with the resolution.
+
+---
+
+This FAQ & Policies document serves as a **general framework** for customer support conversations across industries. It is flexible enough to be adapted for specific company policies, products, or services.
+call_analysis_pipeline.py
+
+Modular pipeline (hardcoded mode) that runs transcription, diarization, sentiment/tonality/intent,
+summarization and RAG steps, and then **exports CSV files** required by the evaluation script:
+
+ - pipeline_transcripts.csv  (call_id,transcript)
+ - segments_pred.csv         (segment_id,call_id,start,end,speaker,text,sentiment_pred,intent_pred,tonality_pred)
+ - summary_preds.csv         (call_id,predicted_summary)
+ - analysis_output.csv       (full dataframe with model outputs)
+
+Edit the HARD-CODED CONFIG at the bottom to point at your audio file and docs file.
+Dependencies (install locally):
+    pip install pandas numpy scipy transformers torch torchaudio pydub whisperx langchain_cohere jiwer rouge-score scikit-learn
+(you may not need all of the above for evaluation; install only what you require)
+
+Note: This script preserves your original logic and model choices. It only adds deterministic,
+safe exports so the evaluation script you shared can run without extra manual steps.

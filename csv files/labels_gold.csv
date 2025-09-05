@@ -1,0 +1,6 @@
+segment_id,call_id,start,end,speaker,text,sentiment,intent,tonality
+s1,c1,4.486,6.57,SPEAKER_00,"Hi everyone.",positive,Greeting / Opening,Polite
+s2,c1,33.827,37.031,SPEAKER_01,"Durgesh, it has been more than 7 days.",neutral,Clarification / Doubt,Frustrated
+s3,c1,39.976,41.297,SPEAKER_01,"My cheque book has not arrived yet.",negative,Billing / Payment Issue,Angry
+s4,c1,75.138,78.885,SPEAKER_01,"Okay, my date of birth is 01081983.",neutral,Providing Information,Calm
+s5,c1,205.08,206.463,SPEAKER_00,"Thank you for calling ABC Bank.",positive,Closing / Goodbye,Polite

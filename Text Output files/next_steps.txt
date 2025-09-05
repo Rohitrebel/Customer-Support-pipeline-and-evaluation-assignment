@@ -1,0 +1,15 @@
+ Based on the conversation summary and company policies, the following actions are recommended for the agent, Durgesh:
+
+1. **Log the complaint**: Since this was a complaint about the delayed delivery of the cheque book, Durgesh should log this incident to ensure it is properly documented and can be followed up on if needed.
+
+2. **Provide clear next steps**: Even though Durgesh assured that the cheque book is on its way and should be delivered the next day, as a best practice, he should still provide clear next steps. This could include an estimated delivery date, as well as instructions on tracking the order using the provided transaction number.
+
+3. **Follow-up**: Given the customer's frustration and dissatisfaction, Durgesh should consider following up with Harsha Sharma to confirm the successful delivery and resolution of the issue. This would help ensure customer satisfaction and demonstrate the bank's commitment to resolving complaints and improving its services.
+
+4. **Collect feedback**: At the end of the conversation, Durgesh could ask for feedback from the customer to collect insights that could help improve the bank's services. He can emphasize that the bank values the customer's opinions and is committed to providing better services.
+
+5. **Document the feedback**: If the customer does provide feedback, Durgesh should ensure it is properly documented to help with future improvements.
+
+6. **Implement changes**: Based on the feedback provided by customers, Durgesh should work with his team to identify areas for improvement in the bank's operations, with the goal of reducing delivery times and improving customer satisfaction.
+
+7. **Communicate improvements**: Finally, Durgesh should communicate any improvements made in the delivery process to customers to demonstrate the bank's commitment to addressing their concerns and improving its services.
