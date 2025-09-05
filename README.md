@@ -18,7 +18,7 @@ This README explains the project, how to run it locally in **hardcoded** mode (n
 - [Run evaluation](#run-evaluation)
 - [Output files (what to expect)](#output-files-what-to-expect)
 - [Troubleshooting & tips](#troubleshooting--tips)
-- [LICENSE](#license--attribution)
+- [LICENSE](#license)
 
 ---
 
